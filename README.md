@@ -3,7 +3,18 @@
 An immersive, visually engaging music player web app designed for hip-hop lovers. Packed with interactive features, smooth UI animations, beat-synced emojis, and a neon-styled visualizer — this player offers an energetic and modern listening experience.
 
 ## Demo
+
+
+
+## ScreenShot
+![Screenshot 2025-06-18 234923](https://github.com/user-attachments/assets/d1ebf797-66f6-48dc-b023-56832fab85bb)
+
 ![demo1](https://github.com/user-attachments/assets/fad8efdf-07e0-4d29-8877-8371f144a419)
+![Uploading Screenshot 2025-06-18 235016.png…]()
+
+![Screenshot 2025-06-18 234904](https://github.com/user-attachments/assets/0ceef53e-cdc7-45e6-a455-d3f6e46932a1)
+
+
 
 
 
