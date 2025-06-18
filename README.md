@@ -1,6 +1,10 @@
 # 🎧 Hip-Hop Music Player 🎶
 
-A stylish, fully functional music player built with **HTML**, **CSS**, and **JavaScript**, inspired by the beats of **KR$NA** and **Seedhe Maut**. This player features smooth UI, real-time audio visualizations, autoplay, beat-emojis, and persistent user settings with Local Storage.
+An immersive, visually engaging music player web app designed for hip-hop lovers. Packed with interactive features, smooth UI animations, beat-synced emojis, and a neon-styled visualizer — this player offers an energetic and modern listening experience.
+
+## Demo
+![demo1](https://github.com/user-attachments/assets/fad8efdf-07e0-4d29-8877-8371f144a419)
+
 
 
 ## 🎵 Features
@@ -31,10 +35,7 @@ A stylish, fully functional music player built with **HTML**, **CSS**, and **Jav
       └── files/ # Folder for music files & images
           ├── *.mp3
           └──  *.jpg / *.webp
-          
-## Demo
-
-
+        
 ## 🛠️ How to Use
  ```bash
   1. 📥 Clone the repo:
