@@ -6,6 +6,10 @@ An immersive, visually engaging music player web app designed for hip-hop lovers
 
 
 
+
+https://github.com/user-attachments/assets/7f68fc4c-2119-4a9d-aacb-7636e347fba2
+
+
 ## ScreenShot
 ![Screenshot 2025-06-18 234923](https://github.com/user-attachments/assets/d1ebf797-66f6-48dc-b023-56832fab85bb)
 
