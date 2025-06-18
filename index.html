@@ -5,30 +5,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hip Hop Player</title>
-
-    <!-- Font Awesome for control icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <div class="beat-background">
-        <!-- Centered Content Wrapper -->
          <h1 class="player-title">🎧 Hip-Hop Player 🎧</h1>
                 
         <div id="visualizer">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
-            <!-- repeat as many as needed -->
         </div>
         
         
         <div class="main-container">
-            <!-- Player on the left -->
             <div class="player-container">
                 <!-- Album Art -->
                 <div class="track-art">
@@ -58,7 +51,6 @@
                     </button>
                 </div>
 
-                <!-- Seek Slider -->
                 <div class="slider-group">
                     <label class="slider-label">
                         <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
@@ -66,7 +58,6 @@
                     <input type="range" id="seek-slider" min="0" max="100" value="0" />
                 </div>
 
-                <!-- Volume Slider -->
                 <div class="slider-group">
                     <label class="slider-label">
                         Volume: <span id="volume-value">100%</span>
@@ -75,17 +66,14 @@
                 </div>
             </div>
 
-            <!-- Playlist on the right -->
             <div class="playlist-section">
                 <h2 class="playlist-title">-- 📀 Playlist --</h2>
                 <div id="playlist" class="playlist-container smooth-scroll">
-                    <!-- Playlist cards will be inserted here by JS -->
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- JS -->
     <script src="script.js"></script>
 </body>
 
