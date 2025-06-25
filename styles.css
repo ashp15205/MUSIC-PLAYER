@@ -336,7 +336,7 @@ input[type="range"] {
 
 @keyframes floatUp {
     0% {
-        opacity: 1;
+        opacity: 0.8;
         transform: translateY(0) scale(1);
     }
 
@@ -396,7 +396,9 @@ input[type="range"] {
     }
 
     .player-title {
-        font-size: 3rem;
+    font-size: 3rem !important;
+    text-align: center;
+    margin: 15px 0 25px 0;
     }
 
     .track-art {
@@ -442,8 +444,13 @@ input[type="range"] {
         grid-template-columns: 1fr;
     }
     .player-title {
-        font-size: 1.3rem;
+    font-size: 2.5rem !important;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
     }
+
 
     .track-art {
         width: 130px;
