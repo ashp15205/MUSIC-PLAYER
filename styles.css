@@ -373,18 +373,22 @@ input[type="range"] {
     border-radius: 10px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .main-container {
         flex-direction: column;
         width: 95%;
         height: 90%;
     }
+    .beat-background, .main-container {
+    position: fixed !important;
+  }
 
-    .player-container,
-    .playlist-section {
-        width: 100%;
-        max-width: 100%;
+    .player-container{
+        width: 90%;
+    }
+    .playlist-section{
+        right: 5px;
+        padding-right: 5px;
     }
 
     .playlist-container {
@@ -392,7 +396,7 @@ input[type="range"] {
     }
 
     .player-title {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 
     .track-art {
@@ -416,6 +420,27 @@ input[type="range"] {
 }
 
 @media (max-width: 480px) {
+    .main-container {
+        flex-direction: column;
+        width: 95%;
+        height: 90%;
+    }
+    .beat-background, .main-container {
+    position: fixed !important;
+  }
+
+    .player-container{
+        width: 89%;
+    }
+    .playlist-section{
+        width: 70%;
+        margin-left: 52px;
+        
+    }
+
+    .playlist-container {
+        grid-template-columns: 1fr;
+    }
     .player-title {
         font-size: 1.3rem;
     }
